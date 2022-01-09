@@ -1,0 +1,258 @@
+/* Reset code */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.title {
+  color: #333;
+  font-size: 7rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  margin-left: 2rem;
+  position: relative;
+  text-transform: capitalize;
+}
+.title:before {
+  background-color: #cd4334;
+  content: "";
+  height: 15.8rem;
+  left: -2rem;
+  position: absolute;
+  top: 2.6rem;
+  width: 0.5rem;
+}
+.title-span {
+  color: #cd4334;
+}
+.text-content {
+  margin-left: 3rem;
+  padding: 1.2rem 2rem;
+  text-align: left;
+}
+.desc {
+  font-size: 2rem;
+  padding: 1.5rem 1.5rem;
+}
+.btn {
+  background-color: #ff3636;
+  border-radius: 15px;
+  border: none;
+  color: #f4e9bf;
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 2rem 0rem;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  transition: 0.5s;
+  text-transform: capitalize;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn:hover {
+  background-color: #333;
+}
+.text-center {
+  text-align: center;
+}
+.secondry-title {
+  font-size: 5rem;
+  margin-bottom: 2.8rem;
+  text-transform: capitalize;
+}
+/* Banners Starts Here */
+
+.banner {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  width: 90%;
+}
+.image-content {
+  width: 100%;
+}
+.image-content img {
+  width: 80%;
+}
+.text-content h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+/* Banners Ends Here */
+/* Mission-area Starts here */
+.missions {
+  margin-bottom: 5rem;
+}
+.mission-2022 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.mission-title {
+  padding: 1.5rem 1.5rem;
+}
+.mission {
+  background-color: #edf5f6;
+  width: 30%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.div-img {
+  padding: 3rem;
+}
+.div-img img {
+  width: 20rem;
+}
+.vission {
+  background-color: #ffeeee;
+  border-radius: 2rem;
+  width: 30%;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.goal {
+  background-color: #fff4d6;
+  border-radius: 2rem;
+  width: 30%;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+/* Missions-area Ends here */
+/* Develop-area Starts here */
+
+.develop {
+  align-items: center;
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px;
+  display: flex;
+  padding-left: 5rem;
+  justify-content: space-around;
+  width: 100%;
+}
+.coding-img {
+  width: 35%;
+  padding: 2rem 1.5rem;
+}
+.coding-img img {
+  width: 100%;
+}
+.develop-text {
+  width: 55%;
+}
+.develop-text h2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.develop-text h2 span {
+  display: block;
+}
+/* Develop area ends here */
+/* Community-area Starts here */
+.community {
+  align-items: center;
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 200px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+/* Community area ends here */
+/* Blogs-area start's here */
+.recent-blogs {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.blogs-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.blogs-title {
+  color: #333;
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 2.8rem;
+}
+.blogs-title span {
+  color: #cd4334;
+}
+.single-blog {
+  background-color: #edf5f6;
+  border-radius: 20px;
+  width: 30%;
+  padding: 1.5rem;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.single-blog-image {
+  width: 100%;
+}
+.single-blog-image img {
+  width: 100%;
+}
+.single-blog h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#web-design {
+  padding-bottom: 4.5rem;
+}
+/* Blog-area ends here */
+
+/* Footer-area Starts here */
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.footer h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 1.5rem;
+}
+.footer h3 span {
+  color: #cd4334;
+}
+.footer p {
+  padding: 1rem;
+}
+
+/* Footer-area ends here */
